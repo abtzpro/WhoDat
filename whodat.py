@@ -3,7 +3,7 @@ import argparse
 import re
 
 # Define the command line arguments
-parser = argparse.ArgumentParser(description="OSINT framework")
+parser = argparse.ArgumentParser(description="WhoDat OSINT framework - By ABTZPRO and Hello Security")
 parser.add_argument("target", help="Target URL or IP address")
 parser.add_argument("-whois", action="store_true", help="Perform a WHOIS lookup")
 parser.add_argument("-geoip", action="store_true", help="Perform a GeoIP lookup")
